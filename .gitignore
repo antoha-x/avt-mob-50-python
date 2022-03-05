@@ -134,3 +134,4 @@ dmypy.json
 # Test Report
 report/
 allure-report/
+/apks/
