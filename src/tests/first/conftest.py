@@ -3,7 +3,7 @@ from appium import webdriver
 
 
 @pytest.fixture()
-def set_up_and_tear_down():
+def driver():
     desired_capabilities = {
         "platformName": "Android",
         "deviceName": "emulator-5554",
